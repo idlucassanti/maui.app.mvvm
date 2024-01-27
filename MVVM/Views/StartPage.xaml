@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MVVM.Views.StartPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="StartPage">
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <Label
+            HorizontalOptions="Center"
+            Text="Formulário"
+            VerticalOptions="Center" />
+
+        <Entry Placeholder="E-mail" />
+        <Entry Placeholder="Senha" />
+        <Button Text="Entrar" />
+    </VerticalStackLayout>
+</ContentPage>
